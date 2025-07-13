@@ -3,7 +3,7 @@ import random
 def Coin_flip():
   number = random.randint(1,2)
   if number == 1:
-    print("FBI Special Agent")
+    print("Tails")
   else:
-    print("Consulting")
+    print("Heads")
 coin_flip()
